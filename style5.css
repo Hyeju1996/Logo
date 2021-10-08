@@ -1,0 +1,42 @@
+body {
+    background-color: #1479F9;
+}
+
+.logos {
+    display: flex;
+}
+
+
+/* Heart 1 */
+
+.Harper {
+    fill: #FBAD37;
+}
+
+.Harper1 {
+    fill: FBAD37;
+    filter: blur(4px);
+}
+
+
+/* key Frames */
+
+@keyframes pulse {
+    0%,
+    100% {
+        stroke: #741AAC;
+        filter: blur(1px);
+    }
+    50% {
+        stroke: #340744;
+    }
+}
+
+@keyframes lifeline {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+© 2021 GitHub,
+Inc. Terms Privacy
